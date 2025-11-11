@@ -1,0 +1,7 @@
+dealUniqueId,fromCurrency,toCurrency,dealTimestamp,amount
+D7001,usd,eur,2024-01-01T00:00:00Z,1000.00
+D7002,eur,gbp,2024-01-02T00:00:00Z,2000.00
+D7003,gbp,jpy,2024-01-03T00:00:00Z,3000.00
+D7004,jpy,cny,2024-01-04T00:00:00Z,4000.00
+D7005,cny,usd,2024-01-05T00:00:00Z,5000.00
+
