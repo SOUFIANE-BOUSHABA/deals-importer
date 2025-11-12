@@ -29,48 +29,20 @@ Maven 3.9.x
 
 Docker / Docker Compose
 
-Project Structure
-deals-importer/
-├─ docker-compose.yml
-├─ Dockerfile
-├─ Makefile
-├─ README.md
-├─ sample/
-├─ src/
-│  ├─ main/
-│  │  ├─ java/com/bbg/fx/fx_deals_importer/
-│  │  │  ├─ FxDealsImporterApplication.java
-│  │  │  ├─ api/
-│  │  │  │  ├─ controller/DealController.java
-│  │  │  │  └─ dto/{DealRequest.java, ImportResult.java}
-│  │  │  ├─ common/validation/Iso4217.java
-│  │  │  ├─ model/Deal.java
-│  │  │  ├─ repository/DealRepository.java
-│  │  │  └─ service/DealImportService.java
-│  │  └─ resources/
-│  │     ├─ application.yml
-│  │     └─ db/migration/V1__init.sql
-│  └─ test/
-└─ pom.xml
-
 Prerequisites
 
 Docker + Docker Compose
 
 
-# Quick Start (Docker)
-git clone https://github.com/SOUFIANE-BOUSHABA/deals-importer.git
-cd deals-importer
+### Quick Start (Docker)
+1 : git clone https://github.com/SOUFIANE-BOUSHABA/deals-importer.git
+2 : cd deals-importer
 
-# Build jar then start DB + app (one command via Makefile)
-make up
-
-# or, if you don’t use Make:
-mvn -DskipTests package
-docker compose up -d --build
+3 : mvn -DskipTests package
+4 : docker compose up -d --build
 
 
-Wait until the app is healthy (docker compose logs -f app).
+### Wait until the app is healthy (docker compose logs -f app).
 
 Upload sample CSV
 # from project root
