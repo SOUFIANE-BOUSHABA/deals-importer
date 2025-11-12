@@ -35,10 +35,10 @@ Docker + Docker Compose
 
 
 ### Quick Start (Docker)
-1 : git clone https://github.com/SOUFIANE-BOUSHABA/deals-importer.git
-2 : cd deals-importer
-3 : mvn -DskipTests package
-4 : docker compose up -d --build
+1 : git clone https://github.com/SOUFIANE-BOUSHABA/deals-importer.git                                                                                                                                         
+2 : cd deals-importer                                                                                                                                                                                      
+3 : mvn -DskipTests package                                                                                                                                                                                
+4 : docker compose up -d --build                                                                                                                                                                          
 
 
 ### Wait until the app is healthy (docker compose logs -f app).
