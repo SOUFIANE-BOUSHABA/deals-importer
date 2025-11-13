@@ -2,7 +2,7 @@
 
 Spring Boot service to ingest FX deals (JSON or CSV) and persist them into a real DB (PostgreSQL) with idempotency (skip duplicates), per-row no-rollback, validation, logging, Docker Compose, tests, and documentation.
 
-Repo: https://github.com/SOUFIANE-BOUSHABA/deals-importer
+Repo: https://github.com/SOUFIANE-BOUSHABA/deals-importer  
 
 Features
 
